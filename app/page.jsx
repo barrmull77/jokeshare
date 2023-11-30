@@ -9,7 +9,7 @@ const Home = () => {
             <span className='orange_gradient text-center'>Cheese it Up!</span>
         </h1>
         <p className='desc text-center'>
-            joke share is a platform for sharing jokes, especially cringeworthy dad jokes
+            jokeShare is a platform for sharing jokes, especially cringeworthy dad jokes
         </p>
     </section>
   )
