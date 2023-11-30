@@ -11,6 +11,7 @@ const Home = () => {
         <p className='desc text-center'>
             jokeShare is a platform for sharing jokes, especially cringeworthy dad jokes
         </p>
+        <Feed />
     </section>
   )
 }
