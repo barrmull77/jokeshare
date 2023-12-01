@@ -43,11 +43,9 @@ export const PATCH = async (request, { params }) => {
 export const DELETE = async (request, { params }) => {
     try {
         await connectToDB();
-        debugger
-        console.log('id ---', Joke.findByIdAndRemove(params.id));
+    
         // Find the joke by ID and remove it
         await Joke.findByIdAndRemove(params.id);
-
         return new Response("Joke deleted successfully", { status: 200 });
     } catch (error) {
         return new Response("Error deleting Joke", { status: 500 });
