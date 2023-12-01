@@ -1,6 +1,9 @@
 ## JokeShare
 JokeShare is a platform where users can log in with a google account and view and share jokes.
 
+The app is deployed on vercel and can be viewed here:
+https://jokeshare.vercel.app/
+
 TechStack:
 NextJs
 MongoDB
